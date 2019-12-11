@@ -1,5 +1,3 @@
-console.log("hello, world!");
-
 
 function lazyGrocerBg() {
   var x = document.getElementsByClassName('lazyGrocer');
