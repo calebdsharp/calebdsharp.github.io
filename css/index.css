@@ -140,6 +140,7 @@ footer {
 footer a {
   font-size: .75rem;
   color: var(--white-smoke);
+  /* color: green; */
   text-decoration: none;
 }
 
@@ -160,16 +161,17 @@ footer a:last-of-type {
   .smallTxt {
     font-size: .75rem;
   }
+
+  footer {
+    justify-content: center;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 740px) {
-  main {
-    display: flex;
-  }
 
   header {
-    display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: center;
   }
 
@@ -183,5 +185,6 @@ footer a:last-of-type {
 
   footer {
     justify-content: center;
+    padding: 0;
   }
 }
