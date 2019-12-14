@@ -98,24 +98,27 @@ nav a {
 main {
   grid-area: main;
   display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .myImage {
   display: flex;
   width: 20%;
-  height: 320px;
+  /* height: 320px; */
   border-radius: 6px;
-  background-image: url(../images/IMG_6753.jpeg);
+  /* background-image: url(../images/IMG_6753.jpeg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  margin-left: 5%;
+  background-position: center; */
+  /* margin-left: 5%; */
 }
 
 .content {
   display: flex;
-  height: 320px;
+  /* height: 320px; */
   width: 60%;
   color: var(--white-smoke);
 }
@@ -141,7 +144,11 @@ main {
   transition: transform .8s ease-in-out;
 }
 
-.content img:hover {
+/* .content img:hover {
+  transform: rotate(360deg);
+} */
+
+.contact:hover img {
   transform: rotate(360deg);
 }
 
@@ -176,11 +183,23 @@ footer a:last-of-type {
     justify-content: center;
     padding: 0;
   }
-
 }
 
 @media screen and (max-width: 678px) {
-  header {
+  .myImage {
+    margin: 0;
+    width: 50vw;
+  }
+
+  .content {
+    margin: 0 20px;
+  }
+
+  footer {
+    justify-content: center;
+    padding: 0;
+  }
+  /* header {
     margin-left: 25%;
   }
 
@@ -192,5 +211,5 @@ footer a:last-of-type {
 
   .myButton {
     margin-left: -2%;
-  }
+  } */
 }
