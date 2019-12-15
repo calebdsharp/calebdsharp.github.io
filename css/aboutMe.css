@@ -144,10 +144,6 @@ main {
   transition: transform .8s ease-in-out;
 }
 
-/* .content img:hover {
-  transform: rotate(360deg);
-} */
-
 .contact:hover img {
   transform: rotate(360deg);
 }
