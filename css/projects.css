@@ -134,21 +134,12 @@ main {
   font-family: 'Quicksand', sans-serif;
 }
 
-/* .lazyGrocer {
-  background-image: url('../images/lazyGrocer1.png');
-} */
-
 .reviewSite {
-  /* background-image: url('../images/reviewSite.png'); */
   background-position: initial;
 }
 
-/* .virtualPet {
-  background-image: url('../images/petShelter1.png');
-} */
 
 .fortuneTeller {
-  /* background-image: url('../images/fortuneTeller.png'); */
   background-position: center;
 }
 
@@ -158,7 +149,6 @@ footer {
   display: flex;
   align-items: center;
   padding-left: 3rem;
-  /* justify-content: center; */
 }
 
 footer a {
@@ -179,65 +169,8 @@ footer a:last-of-type {
     background-repeat: space;
   }
 
-  .lazyGrocer {
-    background-image: url('../images/lazyGrocer1.png');
-  }
-
-  .reviewSite {
-    background-image: url('../images/reviewSite.png');
-    /* background-position: initial; */
-  }
-
-  .virtualPet {
-    background-image: url('../images/petShelter1.png');
-  }
-
-  .fortuneTeller {
-    background-image: url('../images/fortuneTeller.png');
-    /* background-position: center; */
-  }
-
   footer {
     justify-content: center;
     padding: 0;
   }
-
-  /* .nav {
-    margin: 0;
-    background-color: var(--eerie-black);
-    position: absolute;
-    right: 0;
-    display: block;
-    top: -100%;
-    width: 30%;
-    height: calc(30% - 60px);
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0;
-    transition: all 1000ms;
-  }
-
-  .navlink {
-    text-align: center;
-  }
-
-  .navlink:hover {
-    background-color: var(--eerie-black);
-    ;
-  }
-
-  .navlink:hover a {
-    color: var(--white-smoke);
-  }
-
-  .navlink a {
-    color: var(--white-smoke);
-  }
-
-  .nav-active {
-    top: 60px;
-    display: flex;
-    z-index: 1;
-  } */
 }
