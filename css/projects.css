@@ -173,8 +173,28 @@ footer a:last-of-type {
 
 @media screen and (max-width: 678px) {
   .project {
+    height: initial;
+    width: calc(100vw - 20px);
     background-size: contain;
     background-repeat: space;
+  }
+
+  .lazyGrocer {
+    background-image: url('../images/lazyGrocer1.png');
+  }
+
+  .reviewSite {
+    background-image: url('../images/reviewSite.png');
+    /* background-position: initial; */
+  }
+
+  .virtualPet {
+    background-image: url('../images/petShelter1.png');
+  }
+
+  .fortuneTeller {
+    background-image: url('../images/fortuneTeller.png');
+    /* background-position: center; */
   }
 
   footer {
