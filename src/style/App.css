@@ -1,0 +1,188 @@
+Body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #000D21;
+  color: #F4F4F4;
+}
+/****** start nav style ******/
+.nav {
+  min-height: 10vh;
+  font-size: 12px;
+  justify-content: space-between;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  padding: 0 0 1em 0;
+  margin: 0;
+}
+.nav-item {
+  padding-top: 1em;
+}
+.nav-item:last-of-type {
+  padding-right: 2em;
+}
+.nav-item .name {
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.nav-item .name:hover {
+  text-decoration: none;
+}
+.nav-item:first-of-type a {
+  padding-left: 3em;
+}
+.nav-item a,
+.nav-item a:hover {
+  font-family: 'Mulish';
+  color: white;
+}
+.nav-item a:hover {
+  text-decoration: line-through;
+}
+/****** end nav style ******/
+/****** start footer style ******/
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100vw;
+}
+.footer > p {
+  font-size: 12px;
+  font-family: 'Open Sans';
+  padding-left: 3em;
+  cursor: pointer;
+}
+.footer > p:first-of-type {
+  color: white;
+}
+/****** end footer style ******/
+/****** start home style ******/
+.home {
+  padding-top: 10%;
+  flex-direction: column;
+}
+.home > .row {
+  margin-left: 2em;
+  margin-right: 6em;
+}
+.home-text-large {
+  font-family: 'Mulish';
+  font-size: 5em;
+  color: white;
+}
+.home-text-small{
+  font-family: 'Sulphur Point';
+  font-style: italic;
+  color: white
+}
+.home > .row > .col:last-of-type {
+  display: flex;
+  align-self: flex-end;
+  justify-content:flex-end;
+  padding-bottom: 4em;
+}
+.resume-link {
+  font-family: 'Sulphur Point';
+  cursor: pointer;
+}
+/****** end home style ******/
+/****** start projects style ******/
+.projects {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+}
+.repos {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 3em;
+  padding-right: 3em;
+  width: 25vw;
+}
+.repos:hover {
+  font-weight: bold;
+  background-color: #39393A;
+}
+.repos > a,
+.repos > a:hover {
+  font-size: 32px;
+  font-family: 'Mulish';
+  color: white;
+  text-decoration: none;
+}
+/****** end projects style ******/
+/****** start about style ******/
+.about {
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.content > p {
+  font-family: 'Mulish';
+}
+.contact {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contact a,
+.contact a:hover {
+  color: white;
+  text-decoration: none;
+  font-family: 'Mulish';
+}
+.content img {
+  margin-right: 0.5em;
+  transition: transform .8s ease-in-out;
+}
+.contact img:hover  {
+  transform: rotate(360deg);
+}
+/****** end about style ******/
+/****** start photos style ******/
+.pic-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/****** end photos style ******/
+
+@media screen and (max-width: 768px) {
+
+  .home > .row > .col:last-of-type {
+    padding-top: 4em;
+  }
+  .projects {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .repos {
+    height: 25%;
+    width: 100%;
+    justify-content: center;
+  }
+  .about {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .content {
+    margin-left: 2em;
+  }
+  .footer {
+    justify-content: center;
+    padding: 0;
+  }
+}

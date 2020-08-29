@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.ItemProperties.MySite.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MySite.Client/ClientApp/src/styles/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MySite.Api/Controllers/PhotosController.cs">
     <Files>
-      <File FileName="MySite.Api/Controllers/PhotosController.cs" Line="1" Column="1" />
-      <File FileName="MySite.Client/ClientApp/src/components/Photos.js" Line="50" Column="41" />
-      <File FileName="MySite.Client/ClientApp/src/styles/site.css" Line="1" Column="1" NotebookId="1" />
+      <File FileName="MySite.Api/Controllers/PhotosController.cs" Line="28" Column="1" />
+      <File FileName="MySite.Client/ClientApp/src/components/Photos.js" Line="34" Column="6" />
+      <File FileName="MySite.Client/ClientApp/src/styles/site.css" Line="182" Column="27" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MySite" expanded="True">
+          <Node name="MySite" expanded="True" selected="True">
             <Node name="MySite.Api" expanded="True">
               <Node name="Controllers" expanded="True" />
             </Node>
@@ -17,9 +17,7 @@
               <Node name="ClientApp" expanded="True">
                 <Node name="src" expanded="True">
                   <Node name="components" expanded="True" />
-                  <Node name="styles" expanded="True">
-                    <Node name="site.css" selected="True" />
-                  </Node>
+                  <Node name="styles" expanded="True" />
                 </Node>
               </Node>
             </Node>
