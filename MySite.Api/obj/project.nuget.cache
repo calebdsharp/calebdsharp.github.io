@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "G5Z1vvolceNO0/7BQa2LPfikREOGIGIxsp5PPzSeyKOLEKCjvPSaTQLb1nKDvfU9laBihebj66H+FQq+8utc7w==",
+  "success": true,
+  "projectFilePath": "/Users/calebsharp/MySite/MySite.Api/MySite.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/calebsharp/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
