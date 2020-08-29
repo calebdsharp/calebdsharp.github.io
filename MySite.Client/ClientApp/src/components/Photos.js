@@ -25,7 +25,7 @@ export class Photos extends Component {
                     isLoaded: true
                 });
                 console.log(this.state.photos);
-            }).catch(err => console.log(err));
+            }).catch(err => console.log(err + "there is nothing to see here"));
     }
 
 
