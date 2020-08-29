@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.ItemProperties.MySite.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MySite.Client/ClientApp/src/styles/site.css">
+    <Files>
+      <File FileName="MySite.Api/Controllers/PhotosController.cs" Line="1" Column="1" />
+      <File FileName="MySite.Client/ClientApp/src/components/Photos.js" Line="50" Column="41" />
+      <File FileName="MySite.Client/ClientApp/src/styles/site.css" Line="1" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MySite" expanded="True">
+            <Node name="MySite.Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="MySite.Client" expanded="True">
+              <Node name="ClientApp" expanded="True">
+                <Node name="src" expanded="True">
+                  <Node name="components" expanded="True" />
+                  <Node name="styles" expanded="True">
+                    <Node name="site.css" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MySite.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{1D5535B7-A065-464A-ACB3-44AB9A7A298F}" ItemName="MySite.Api" ConfigurationId="Default" />
+        <StartupItem ItemId="{666E4559-8BA5-4392-888A-47BB0BA961E2}" ItemName="MySite.Client" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>

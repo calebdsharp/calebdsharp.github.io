@@ -179,6 +179,7 @@ body {
 
 .photos {
     width: 33%;
+    list-style-type: none;
 }
 
 .pic {

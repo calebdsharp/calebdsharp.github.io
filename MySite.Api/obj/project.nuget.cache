@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G5Z1vvolceNO0/7BQa2LPfikREOGIGIxsp5PPzSeyKOLEKCjvPSaTQLb1nKDvfU9laBihebj66H+FQq+8utc7w==",
+  "dgSpecHash": "NLpewkOdZz7r+zWkRPMepgx58Zfmi2YxCXi3zlXqOEluDptH9G/2zyy6XI08X2juytQuAfpF1s+zStWwueogYQ==",
   "success": true,
-  "projectFilePath": "/Users/calebsharp/MySite/MySite.Api/MySite.Api.csproj",
+  "projectFilePath": "/Users/calebsharp/calebdsharp.github.io/MySite.Api/MySite.Api.csproj",
   "expectedPackageFiles": [
     "/Users/calebsharp/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
   ],

@@ -21,6 +21,11 @@ namespace MySite.Api.Controllers
 
             var result = JsonConvert.DeserializeObject<Root>(response);
 
+            if (result == null)
+            {
+                return NotFound("there is nothing to show here");
+            }
+
             return Ok(result);
         }
     }

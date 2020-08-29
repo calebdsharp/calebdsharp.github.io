@@ -33,5 +33,6 @@ Global
 		$0.VersionControlPolicy = $3
 		$3.CommitMessageStyle = $4
 		$4.Indent = @\t
+		$4.LineAlign = 0
 	EndGlobalSection
 EndGlobal
