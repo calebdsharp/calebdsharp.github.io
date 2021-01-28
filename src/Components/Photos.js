@@ -11,33 +11,54 @@ class Photos extends Component {
     }
 
     componentDidMount() {
-        // fetch('https://graph.instagram.com//me/media?fields=id,caption,media_url&access_token=IGQVJXb0RreTNGbEFjNk9aQWZAQYnlGV3NGc3RMX1NYYzhKcUJCRVBwWUVzc0xSc0t2VmU0T2tGdDRHTURXTkYtM0dtaVdCM2FocmpicTRvLTZAWci14OHlfRjVpUjNHQnhQZAzIxaDROMVJPQ2xDUEhkbAZDZDD')
-        //     .then(response => response.json())
-        //     .then(data => {
-        //         console.log(data);
-        //         this.setState({
-        //             photos: data.data,
-        //             isLoaded: true
-        //         });
-        //     }).catch(err => console.log(err))
+        fetch('https://graph.instagram.com/17841400631260357/media?access_token=IGQVJWSURzMkdyQWw3eWNzalBVdWlZAanFNZAnZAyOEQ2cHY0WW5PSTV6NHNnMkxrMGJJdTBDalNjaFl2c0cxZAFdvNHNvN190Ukw5dUdCSENzcGJwX0NtRWpna0NaMVF4bzdzQ2drb1R3&fields=id,timestamp,media_url')
+            .then(response => response.json())
+            .then(data => {
+                console.log(data.data);
+                this.setState({
+                    photos: data.data,
+                    isLoaded: true
+                });
+            }).catch(err => console.log(err))
     }
+
+    // displayPhotos = () => {
+    //   this.state.photos.map((pic, i) => {
+    //     let caption = pic.caption;
+    //       return (
+    //           <li className="photos" key={pic.id}>
+    //             hello
+    //               <figure>
+    //                   <img className="pic" src={pic.media_url} width="300px" height="300px" />
+    //                   <figcaption>{caption}</figcaption>
+    //               </figure>
+    //           </li>
+    //       );
+    // });
+
+    // if (this.state.error) {
+    //     return <div>Error: {this.state.error.message}</div>;
+    // } else if (!this.state.isLoaded) {
+    //     return <div style={{ textAlign: 'center' }}>Loading...</div>;
+    // }
+  // }
 
     render() {
         const { error, photos, isLoaded } = this.state;
 
-        // const displayPhotos = this.state.photos.map((pic, i) => {
+        // const displayphotos = this.state.photos.map((pic, i) => {
         //     let caption = pic.caption;
         //     return (
-        //         <li className="photos" key={pic.id}>
+        //         <li classname="photos" key={pic.id}>
         //             <figure>
-        //                 <img className="pic" src={pic.media_url} width="300px" height="300px" />
+        //                 <img classname="pic" src={pic.media_url} width="300px" height="300px" />
         //                 <figcaption>{caption}</figcaption>
         //             </figure>
         //         </li>
         //     );
         // });
 
-        // {displayPhotos} // use to display in return
+        //{displayPhotos} // use to display in return
 
         // if (error) {
         //     return <div>Error: {error.message}</div>;
@@ -47,8 +68,19 @@ class Photos extends Component {
 
         return (
             <div>
-                <ul className="pic-list">
-                    Photos coming soon
+                <ul className="photos__picture-list">
+                    {this.state.photos.map((pic, i) => {
+                        let caption = pic.caption;
+                        return (
+                            <li classname="photos__picture-list-item" key={pic.id}>
+                                <figure>
+                                    <img classname="photos__picture-img" src={pic.media_url} width="150px" height="150px" />
+                                    <figcaption>{caption}</figcaption>
+                                </figure>
+                            </li>
+                        )
+                    })
+                  }
                 </ul>
             </div>
         );
