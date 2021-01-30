@@ -68,13 +68,13 @@ class Photos extends Component {
 
         return (
             <div>
-                <ul className="photos__picture-list">
+                <ul className="pic-list">
                     {this.state.photos.map((pic, i) => {
                         let caption = pic.caption;
                         return (
-                            <li classname="photos__picture-list-item" key={pic.id}>
+                            <li classname="photos" key={pic.id}>
                                 <figure>
-                                    <img classname="photos__picture-img" src={pic.media_url} width="150px" height="150px" />
+                                    <img classname="pic" src={pic.media_url} width="300px" height="300px" />
                                     <figcaption>{caption}</figcaption>
                                 </figure>
                             </li>
