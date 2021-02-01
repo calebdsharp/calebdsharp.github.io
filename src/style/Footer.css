@@ -1,0 +1,33 @@
+/****** start footer style ******/
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100vw;
+}
+.footer > p {
+  font-size: 12px;
+  font-family: 'Open Sans';
+  padding-left: 3em;
+  cursor: pointer;
+}
+.footer > p:first-of-type {
+  color: white;
+}
+/****** end footer style ******/
+
+@media (max-width: 1024px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer > p {
+    padding-left: 0;
+  }
+  .footer > p:first-of-type {
+    padding-left: 2em;
+  }
+  .footer > p:last-of-type {
+    padding-right: 2em;
+  }
+}
