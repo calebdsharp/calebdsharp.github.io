@@ -15,11 +15,9 @@ class Footer extends Component {
 
   render() {
     return (
-      <Navbar fixed="bottom" className="justify-content-center">
-        <div className="footer">
-          <p onClick={this.toLinkedIn}>LinkedIn</p>
-          <p onClick={this.toGitHub}>GitHub</p>
-        </div>
+      <Navbar fixed="bottom" className="footer justify-content-center">
+        <p onClick={this.toLinkedIn}>LinkedIn</p>
+        <p onClick={this.toGitHub}>GitHub</p>
       </Navbar>
     );
   }

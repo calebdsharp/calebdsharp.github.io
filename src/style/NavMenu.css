@@ -1,0 +1,35 @@
+.nav {
+  min-height: 10vh;
+  font-size: 12px;
+  justify-content: space-between;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  padding: 0 0 1em 0;
+  margin: 0;
+}
+.nav-item {
+  padding-top: 1em;
+}
+.nav-item:last-of-type {
+  padding-right: 2em;
+}
+.nav-item .name {
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.nav-item .name:hover {
+  text-decoration: none;
+}
+.nav-item:first-of-type a {
+  padding-left: 3em;
+}
+.nav-item a,
+.nav-item a:hover {
+  font-family: 'Mulish';
+  color: white;
+}
+.nav-item a:hover {
+  text-decoration: line-through;
+}

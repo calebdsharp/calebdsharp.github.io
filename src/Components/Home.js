@@ -3,12 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import '../style/Home.css';
 
 class Home extends Component {
 
-toGoogle = () => {
-  window.open('https://www.google.com');
-}
+  toGoogle = () => {
+    window.open('https://www.google.com');
+  }
 
   render() {
     return (
@@ -16,7 +17,7 @@ toGoogle = () => {
         <Row>
           <Col>
             <h1 className="home-text-large">
-            Rethink<br />innovate.
+              Rethink<br/>innovate.
             </h1>
             <p className="home-text-small">Caleb, software developer in Columbus, Ohio</p>
           </Col>

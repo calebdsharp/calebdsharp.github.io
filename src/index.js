@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './Components/App';
 import Footer from './Components/Footer';
 import NavMenu from './Components/NavMenu';
 import './style/App.css';
-import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <>

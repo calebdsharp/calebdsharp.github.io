@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Nav from 'react-bootstrap/Nav';
 
+import '../style/NavMenu.css';
+
 class NavMenu extends Component {
 
   render() {
@@ -9,7 +11,7 @@ class NavMenu extends Component {
         <Nav.Item>
           <Nav.Link className="name" href="/">Caleb Sharp</Nav.Link>
         </Nav.Item>
-        <ul>
+        <div className="d-flex justify-content-end">
           <Nav.Item>
             <Nav.Link href="/projects">Projects</Nav.Link>
           </Nav.Item>
@@ -19,7 +21,7 @@ class NavMenu extends Component {
           <Nav.Item>
             <Nav.Link href="/photos">Photos</Nav.Link>
           </Nav.Item>
-        </ul>
+        </div>
       </Nav>
     );
   }

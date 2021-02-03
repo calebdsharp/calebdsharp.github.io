@@ -1,0 +1,24 @@
+.home {
+  padding-top: 10%;
+  padding-bottom: 3em;
+}
+.home-text-large {
+  font-family: 'Mulish';
+  font-size: 5em;
+  color: white;
+}
+.home-text-small{
+  font-family: 'Sulphur Point';
+  font-style: italic;
+  color: white
+}
+.home > .row > .col:last-of-type {
+  display: flex;
+  align-self: flex-end;
+  justify-content:flex-end;
+  padding-bottom: 4em;
+}
+.resume-link {
+  font-family: 'Sulphur Point';
+  cursor: pointer;
+}
