@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Nav from 'react-bootstrap/Nav';
 
-class Header extends Component {
+class NavMenu extends Component {
 
   render() {
     return (<Nav>
