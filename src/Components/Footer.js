@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Navbar from 'react-bootstrap/Navbar'
 
 import '../style/Footer.css';
 
@@ -14,10 +15,12 @@ class Footer extends Component {
 
   render() {
     return (
-      <div className="footer">
-        <p onClick={this.toLinkedIn}>LinkedIn</p>
-        <p onClick={this.toGitHub}>GitHub</p>
-      </div>
+      <Navbar fixed="bottom" className="justify-content-center">
+        <div className="footer">
+          <p onClick={this.toLinkedIn}>LinkedIn</p>
+          <p onClick={this.toGitHub}>GitHub</p>
+        </div>
+      </Navbar>
     );
   }
 }

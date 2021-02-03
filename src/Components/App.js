@@ -1,4 +1,4 @@
-import React, { Component, Suspense, lazy} from 'react';
+import React, { Component, Suspense, lazy } from 'react';
 
 // Router Components
 import {
@@ -11,7 +11,7 @@ import {
 import '../style/App.css';
 
 // Import Components
-import Header from './Header';
+import NavMenu from './NavMenu';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
@@ -22,28 +22,28 @@ const routes = [
     name: "home",
     path: "/",
     exact: true,
-    nav: () => <Header index={0} />,
+    nav: () => <NavMenu index={0} />,
     component: () => <Home />
   },
   {
     name: "projects",
     path: "/projects",
     exact: true,
-    nav: () => <Header index={1} />,
+    nav: () => <NavMenu index={1} />,
     component: () => <Projects />
   },
   {
     name: "about",
     path: "/about",
     exact: true,
-    nav: () => <Header index={2} />,
+    nav: () => <NavMenu index={2} />,
     component: () => <About />
   },
   {
     name: "photos",
     path: "/photos",
     exact: true,
-    nav: () => <Header index={3} />,
+    nav: () => <NavMenu index={3} />,
     component: () => <Photos />
   }
 ]
