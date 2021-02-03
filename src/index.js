@@ -11,7 +11,7 @@ ReactDOM.render(
   <>
     <App />
     <Footer/>
-    </>,
+  </>,
     document.getElementById('root')
   );
 
